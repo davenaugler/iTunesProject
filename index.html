@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>iTunes Projects</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <form class="navbar-form navbar-header navbar">
+                <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+                <div class="form-group">
+                    <input type="text" class="form-control" id="artist" placeholder="Artist Name" />
+                    <button type="button" class="btn btn-primary" id="get-music-button" onclick="getMusic()">Get Music</button>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <div id="songs">
+        <div class="song"></div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="itunes-service.js"></script>
+
+</body>
+
+</html>

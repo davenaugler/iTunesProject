@@ -1,0 +1,58 @@
+body{
+    background-image: url("img/musicBackground.jpg");
+}
+
+.navbar{
+    width: 100%;
+    height: 15%;
+    border-radius: 0%;
+  
+}
+
+.form-group{
+    padding-top: 8px;
+    display: inline-block;
+   
+    /*margin-left: 40%;*/
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    text-align: center;
+}
+
+
+.songCard{
+    /*width: 90%;
+    height: 10%;*/
+    background-color: rgba(255, 255, 255, 0.7);
+    /*This is not working*/
+
+    margin: 20px;
+    /*consider adding display:flex*/
+}
+
+.artistSong{
+    color: #4A4A4A;
+}
+
+.titleSong{
+    font-family: 'Open Sans', sans-serif;
+    color:#4A4A4A;
+}
+
+.collectionSong{
+    color: #4A4A4A
+}
+
+.priceSong{
+    color: #4A4A4A
+}
+
+.myAudio{
+    margin-top: 2rem;
+}
